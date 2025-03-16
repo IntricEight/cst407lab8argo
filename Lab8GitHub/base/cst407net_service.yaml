@@ -10,7 +10,7 @@ spec:
   type: LoadBalancer
   ports:
   - name: http
-  #loadbalancer port
+  # loadbalancer port
     port: 80
     protocol: TCP
     targetPort: 80
